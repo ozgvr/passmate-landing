@@ -1,0 +1,79 @@
+{{ define "main" }}
+<section class="pt-5 mb-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="text-center">
+                    <h1 class="fw-bold">{{ .Title }}</h1>
+                    <p class="lead">{{ .Content }}</p>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-12">
+                        <div class="accordion accordion-flush" id="accordionFlushExample" data-aos="fade-up">
+                        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "legal") }}
+                        {{ range $paginator.Pages }}
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={{ .Param "selector" }} aria-expanded="false" aria-controls={{ .Param "selector" }}>
+                                        <h5>
+                                            {{ .Title }}
+                                        </h5>
+                                    </button>
+                                </h2>
+                                <div id={{ .Param "id" }} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body fs-6 lead">
+                                        {{ .Content }}
+                                    </div>
+                                </div>
+                            </div>
+                        {{ end }}
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Pagination Links -->
+                {{ $pag := $.Paginator }}
+                {{ if gt $pag.TotalPages 1 }}
+                {{ $.Scratch.Set "dot_rendered" false }}
+                <div class="d-flex justify-content-center">
+                    <nav aria-label="page navigation">
+                        <ul class="pagination">
+                            <!-- Don't show on 1st and 2nd page -->
+                            {{ if and (ne $pag.PageNumber 1) (ne $pag.PageNumber 2) }}
+                            <li class="page-item"><a href="{{ $pag.First.URL }}" rel="first" class="page-link">« First</a></li>
+                            {{ end }}
+    
+                            {{ if $pag.HasPrev  }}
+                            <li class="page-item"><a href="{{ $pag.Prev.URL }}" rel="prev" class="page-link">‹ Prev</a></li>
+                            {{ end }}
+    
+                            {{ range $pag.Pagers }}
+                                {{ if eq . $pag }} <!-- Current Page -->
+                                <li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+                                {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
+                                {{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
+                                <li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+                                {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
+                                {{ $.Scratch.Set "dot_rendered" true }}
+                                <li class="page-item disabled"><a class="page-link">...</a></li>
+                                {{ end }}
+                            {{ end }}
+    
+                            {{ if $pag.HasNext }}
+                            <li class="page-item"><a href="{{ $pag.Next.URL }}" rel="next" class="page-link">Next ›</a></li>
+                            {{ end }}
+    
+                            <!-- Don't show on last and 2nd last page -->
+                            {{ if and (ne $pag.PageNumber $pag.TotalPages) ((ne $pag.PageNumber (sub $pag.TotalPages 1))) }}
+                            <li class="page-item"><a href="{{ $pag.Last.URL }}" rel="last" class="page-link">Last »</a></li>
+                            {{ end }}
+                        </ul>
+                    </nav>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

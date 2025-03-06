@@ -1,0 +1,8 @@
+baseURL = "https://getpassmate.com"
+title = "PassMate"
+languageCode = "en-us"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  description = "PassMate is an Android App that securely and conveniently organizes your transit passes, boarding passes, event tickets, ID cards, store cards, coupons and more — all in one place."
