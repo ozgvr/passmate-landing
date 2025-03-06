@@ -19,10 +19,10 @@ We grant you a limited, non-exclusive, non-transferable, and revocable license t
  
 2. Restrictions
 You may not:
-• Copy, modify, distribute, sell, or lease any part of the App.
-• Reverse-engineer, decompile, or attempt to extract the source code.
-• Use the App for unlawful purposes.
-• Interfere with or disrupt the integrity or performance of the App.
+- Copy, modify, distribute, sell, or lease any part of the App.
+- Reverse-engineer, decompile, or attempt to extract the source code.
+- Use the App for unlawful purposes.
+- Interfere with or disrupt the integrity or performance of the App.
  
 3. Ownership
 OVO Dijital Servisler Anonim Şirketi retains all ownership, intellectual property, and proprietary rights in the App and its content. This Agreement does not transfer any ownership rights to you.

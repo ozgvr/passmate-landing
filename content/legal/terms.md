@@ -21,17 +21,17 @@ You must be at least 13 years old to use the App. By using the App, you represen
  
 3. User Conduct and Acceptable Use
 You agree to use the App and Services only for lawful purposes. You shall not:
-• Violate any applicable laws or regulations.
-• Use the App for fraudulent, misleading, or harmful activities.
-• Interfere with or disrupt the functionality, security, or integrity of the App.
-• Attempt to gain unauthorized access to any part of the App or another user’s data.
-• Transmit viruses, malware, or other harmful code.
-• Use the App to engage in harassment, hate speech, or abusive conduct.
+- Violate any applicable laws or regulations.
+- Use the App for fraudulent, misleading, or harmful activities.
+- Interfere with or disrupt the functionality, security, or integrity of the App.
+- Attempt to gain unauthorized access to any part of the App or another user’s data.
+- Transmit viruses, malware, or other harmful code.
+- Use the App to engage in harassment, hate speech, or abusive conduct.
  
 4. Permissions and Notifications
 The App does not require user registration. However, to access full features such as time and location-based notifications and alerts from pass providers, you must grant the necessary device permissions. These include:
-• Location Permissions: To receive relevant location-based notifications and alerts from pass providers.
-• Notification Permissions: To allow the App to send time-based and location-based reminders.
+- Location Permissions: To receive relevant location-based notifications and alerts from pass providers.
+- Notification Permissions: To allow the App to send time-based and location-based reminders.
 You may adjust your permission settings at any time through your device settings, but disabling these permissions may limit the App’s functionality.
  
 5. Service Availability and Modifications
@@ -48,9 +48,9 @@ The App may integrate with third-party services, including but not limited to Fi
  
 8. Termination
 We may suspend or terminate your access to the App and Services at our sole discretion if you:
-• Violate these Terms.
-• Engage in prohibited activities.
-• Pose a risk to other users or the integrity of the App. Upon termination, your right to use the App ceases immediately.
+- Violate these Terms.
+- Engage in prohibited activities.
+- Pose a risk to other users or the integrity of the App. Upon termination, your right to use the App ceases immediately.
  
 9. Disclaimer of Warranties
 The App and Services are provided "as is" and "as available" without warranties of any kind. We do not guarantee uninterrupted or error-free operation, nor do we warrant that the App is free of viruses or harmful components.
