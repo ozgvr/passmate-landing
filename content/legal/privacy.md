@@ -1,6 +1,6 @@
 +++
 title = "Privacy Policy"
-date = 2024-10-22T07:07:07+01:00
+date = 2024-03-06T07:07:07+01:00
 layout = "legal/agreement"
 weight = 1
 [params]
@@ -8,75 +8,124 @@ weight = 1
     selector = "#privacy"
 +++
 
-Privacy Policy
-Effective Date: 06.03.2025
- 
-"This Privacy Policy ("Policy") is an integral part of our End User License Agreement ("EULA") and Terms of Service ("TOS"). It governs the collection, processing, and transfer of personal data by OVO Dijital Servisler Anonim Şirketi ("Company," "we," "us," or "our") when you access or use our mobile application ("App") and related services ("Services")."
- 
-Any capitalized terms not defined herein shall have the meaning ascribed to them in the “EULA” and “TOS”
- 
-This Policy outlines the types of data we collect, how we use and share it, the safeguards in place to protect it, and the rights you have regarding your personal data in compliance with applicable data protection laws, including the EU General Data Protection Regulation ("GDPR") and the California Consumer Privacy Act ("CCPA").
- 
-If you have any questions regarding this Privacy Policy or our data practices, please contact us at: support@getpassmate.com
- 
-1. Information We Collect
-We may collect the following types of information:
-- Personal Information: If you contact us for support, we may collect your name, email address, or other contact details.
-- Usage Data: Non-personal data such as device type, operating system, and app usage patterns.
-- Pass Data: The App allows you to store digital passes (e.g., tickets, loyalty cards, coupons). This data is stored locally on your device and is not transmitted to our servers.
-- Push Notifications: We may store a Firebase Cloud Messaging (FCM) or Huawei Cloud Messaging (HCM) token to send notifications. You can disable push notifications through your device settings or by uninstalling the App.
-- Log Data & Unique Identifiers: In case of an error, we collect diagnostic data (e.g., IP address, device name, OS version, and app configuration at the time of the error). While this data is generally non-personal, we treat it as personal if it can reasonably identify you.
-- Technical Data: We collect non-personal technical information such as device model, OS version, time zone, country, error reports, diagnostic logs, API calls, and other logs. This data is used to maintain, support, and improve the App.
- 
-2. How We Collect Information
-We collect information in two ways:
-1. Automatically: Through SDKs and tracking technologies when you interact with the App.
-2. Voluntarily: When you provide information directly (e.g., customer support inquiries).
- 
-3. Data Sharing & Third Parties
-We do not sell or rent your personal data. However, we may share it under the following circumstances:
-- With Your Consent: If you explicitly allow it.
-- Legal Compliance: When required by law or to protect rights, safety, or security.
-- Policy Enforcement: To investigate policy violations, prevent fraud, or protect users.
-- Corporate Transactions: If PassMate Alliance is acquired or merged with another entity.
-- Service Providers: Third-party vendors assisting with analytics, storage, fraud prevention, and notification services.
-- Affiliate Partners: We may partner with affiliates for promotional activities or business collaborations. In such cases, limited non-personal data or personal data may be shared to facilitate these partnerships. Any data shared with affiliates will be governed by strict contractual agreements ensuring compliance with GDPR and CCPA.
- 
-4. Technical Infrastructure & Tracking Technologies
-Our App and Services rely on cloud infrastructure and various tracking technologies to enhance performance, security, and user experience.
- 
-We use the following services:
-- Push Notification Services: Firebase Cloud Messaging (FCM) and Huawei Cloud Messaging (HCM) for delivering notifications.
-- Cloud Infrastructure & Storage: AWS services for API Gateway, database storage, and push services.
-- SDKs & Analytics: Remote Config and data storage, Crash analytics, Cloud Messaging, Security and encryption, A/B testing and in-app messaging, Predictions and analytics
- 
-5. User Rights
-Under applicable data protection laws, you may have the following rights:
-- Access & Review: Request a copy of the personal data we store about you.
-- Correction: Request corrections to inaccurate personal data.
-- Deletion: Request deletion of your personal data unless legally required to retain it.
-- Restriction or Objection: Restrict or object to processing of your personal data.
-- Data Portability: Request a copy of your data in a structured format.
-- Withdraw Consent: Revoke consent where processing is based on consent.
-- File a Complaint: Contact your local data protection authority if you believe your rights have been violated.
-To exercise any of these rights, contact us at support@getpassmate.com.
- 
-6. Data Retention
-We retain your personal data only as long as necessary for the purposes described in this Policy or as required by law. We may delete or anonymize data at our discretion if no longer needed.
- 
-7. Security Measures
-We implement industry-standard security measures to protect your information from unauthorized access, loss, misuse, or disclosure. However, no method of data transmission over the internet is completely secure. If you suspect a security breach, please contact us immediately.
- 
-8. International Data Transfers
-We store and process data on cloud servers located in the EU, US, and Asia. If your data is transferred outside of your jurisdiction, we ensure it remains protected under applicable legal frameworks, including standard contractual clauses for EU users.
- 
-9. Children's Privacy
-Our App is not directed at children under 13 years old. We do not knowingly collect personal data from minors. If a parent or guardian becomes aware that a child has provided personal information, they should contact us to request its deletion.
- 
-10. Changes to This Policy
-We may update this Privacy Policy from time to time. Any significant changes will be notified via our App or other means as required by law. Continued use of our App after changes take effect constitutes acceptance of the updated Policy.
- 
-11. Contact Us
-For any questions or concerns regarding this Privacy Policy, please contact us at:
-Email: support@getpassmate.com
-Website: https://www.getpassmate.com
+**Effective Date:** 06.03.2025
+
+This Privacy Policy (“Policy”) is an integral part of our **End User License Agreement (“EULA”)** and **Terms of Service (“TOS”)**. It explains how **OVO Dijital Servisler Anonim Şirketi** (“Company,” “we,” “us,” or “our”) handles data when you use the **PassMate - Passbook Wallet** mobile application (“App”) and related services (“Services”).
+
+ This Policy outlines the types of data we collect, how we use and protect it, and your rights regarding your personal data, in compliance with applicable data protection laws, including the **EU General Data Protection Regulation (GDPR)** and the **California Consumer Privacy Act (CCPA)**.
+
+For any privacy-related inquiries, contact us at:
+**support@getpassmate.com**
+
+**1. Data Collection & Usage**
+We **do not collect or store personal data** via the App. However, we collect limited **user-provided data** when you contact us for support.
+
+**Data Collected Only When Users Contact Us:**
+If you reach out to us via email for support or inquiries, we may collect:
+
+•  **Name & Surname** (if provided)
+•  **Email Address** (for responding to your inquiry)
+•  **Address** (to understand location-specific issues)
+•  **Device Model & Operating System** (for troubleshooting technical issues)
+•  **Pass Type** (to identify the type of digital pass used in the app)
+
+**Purpose:** This information is used **only** to provide customer support and resolve technical issues. We **do not** sell, rent, or share this data with third parties.
+
+**Data NOT Collected by Us:**
+- We do not collect personal data through the app.
+- We do not track, sell, or share personal information.
+
+ **2. Third-Party Services & Data Processing**
+While we do not collect personal data, the **App integrates third-party services** that may process non-personal data for analytics, push notifications, and crash reporting. These services include:
+
+•  **Firebase Services (Google LLC)** : Used for crash reporting (Firebase Crashlytics), analytics (Firebase Analytics), and push notifications (Firebase Cloud Messaging - FCM).
+•  **Huawei Cloud Services**: Used for push notifications (Huawei Cloud Messaging - HCM) and device analytics on Huawei devices.
+•  **Amazon Web Services (AWS)**: Used for secure backend hosting and API infrastructure.
+
+ **Third-Party Data Processing:** These services may collect **non-personal device information**, such as:
+•  Device model, OS version, time zone, country, and crash logs (for debugging & app performance)
+•  Push notification tokens (for sending notifications)
+•  Approximate location (via IP address) (for analytics purposes, but not stored)
+
+ **Opt-Out:** Users can disable tracking, analytics, and push notifications via **device settings** 
+
+For more details, review the privacy policies of these third-party services:
+•  **Google Firebase:**    
+[https://firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
+•  **Huawei Cloud Services:**[[https://developer.huawei.com/consumer/en/doc/app/10134](https://developer.huawei.com/consumer/en/doc/app/10134)
+
+**3. Data Sharing with Third Parties**
+We **do not share, sell, or rent** any personal data with third parties. However, we may disclose limited information under specific circumstances as outlined below:
+
+**Subject to Your Consent**
+We may share personal data **only if you explicitly provide consent**. Once shared, the data will be subject to the **third party’s privacy policy and practices**.
+
+-- **Legal Compliance & Policy Enforcement**
+We may disclose personal data if required to:
+•  Enforce our policies and agreements.
+•  Investigate potential violations of our Terms of Service.
+•  Prevent fraudulent activities, security threats, or technical issues.
+•  Protect the rights, property, or safety of our users, partners, or third parties.
+
+-- **Compliance with Law Enforcement & Regulations**
+We may disclose personal data if legally required to comply with:
+•  Applicable laws, legal processes, or regulatory requirements.
+•  Government requests or court orders.
+Any disclosure will be **limited to the minimum necessary** for compliance.
+
+-- **Affiliate Partners & Corporate Transactions**
+If PassMate becomes part of a corporate transaction (e.g., **merger, acquisition, asset sale, or restructuring**), personal data may be transferred to the **acquiring entity**, which will assume the rights and obligations outlined in this Privacy Policy.
+
+Additionally, we may share non-personal data with our **affiliate partners** for business operations, promotional activities, or collaborations. However, **any such sharing will not include personal data**.
+
+ -- **Service Providers**
+We work with **third-party service providers** that perform essential functions on our behalf, including:
+
+•  **Cloud storage & infrastructure** – Amazon Web Services (AWS)
+•  **Push notifications** – Firebase Cloud Messaging (FCM), Huawei Cloud Messaging (HCM)
+•  **Analytics & crash reporting** – Firebase Analytics, Firebase Crashlytics
+
+**Important:** These service providers **only process data on our behalf** and **cannot use it for any other purpose**. We ensure all service providers comply with **GDPR, CCPA, and relevant data protection laws**.
+
+-- **User Rights & Data Control**
+- Users **can opt out of tracking, analytics, and notifications** via **device settings**.
+- Users **can request data deletion** by contacting **support@getpassmate.com**.
+
+**4. User Rights & Data Protection**
+Under GDPR, CCPA, and other privacy laws, you have the right to:
+-  **Access & Review**: Request a copy of any personal data we store.
+- **Correction**: Request updates to incorrect information.
+- **Deletion**: Request deletion of your data unless required by law.
+- **Opt-Out**: Disable analytics and push notifications in device settings.
+- **Withdraw Consent**: Revoke consent where applicable.
+- **File a Complaint**: Contact your local data protection authority if you believe your rights have been violated.
+
+**To exercise these rights, contact:** 📧 **support@getpassmate.com**
+
+**5. Data Retention**
+We retain **user support data only as long as necessary** to resolve issues or as required by law. Once resolved, we may delete or anonymize this data.
+
+**Retention Period:** **Support-related data is retained for up to 12 months** unless required for legal or security reasons.
+
+**6. Security Measures**
+We implement **industry-standard security measures** to protect user interactions. However, no method of transmission over the internet is **100% secure**.
+
+**If you suspect a security breach, please contact us immediately.**
+
+**7. International Data Transfers**
+We store and process data on cloud servers located in **the EU, US, and Asia**. If data is transferred outside of your jurisdiction, we ensure it remains protected under applicable legal frameworks, including **Standard Contractual Clauses (SCCs) for EU users**.
+
+**8. Children’s Privacy**
+Our App is **not intended for children under 13 years old**. We do not knowingly collect data from minors.
+
+**If a parent or guardian believes their child has provided personal data, please contact us for deletion.**
+
+**9. Changes to This Policy**
+We may update this Privacy Policy **from time to time**. Any significant changes will be notified via our App or other means as required by law.
+
+**Continued use of our App after changes take effect constitutes acceptance of the updated Policy.**
+
+**10. Contact Us**
+For any privacy concerns, please contact us:
+📧 **Email:** support@getpassmate.com
+🌐 **Website:** [https://www.getpassmate.com](https://www.getpassmate.com)
