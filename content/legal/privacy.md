@@ -32,8 +32,8 @@ If you reach out to us via email for support or inquiries, we may collect:
 **Purpose:** This information is used **only** to provide customer support and resolve technical issues. We **do not** sell, rent, or share this data with third parties.
 
 **Data NOT Collected by Us:**
-- We do not collect personal data through the app.
-- We do not track, sell, or share personal information.
+•  We do not collect personal data through the app.
+•  We do not track, sell, or share personal information.
 
  **2. Third-Party Services & Data Processing**
 While we do not collect personal data, the **App integrates third-party services** that may process non-personal data for analytics, push notifications, and crash reporting. These services include:
