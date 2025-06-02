@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode }}">
     {{ partial "head.html" . }}
-    <style>
-        html, body{
-            overflow-x: hidden;
-        }
-        a{
-            text-decoration: none;
-        }
-        .store-btn{
-            transition: 0.1s ease;
-        }
-        .store-btn:hover{
-            transform: scale(1.05);
-        }
-        .text-white-75{
-            color: rgba(255, 255, 255, 0.75)!important;
-        }
-        h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 0;
-        font-family: 'DM Sans', sans-serif;
-        }   
-        div, p, li, ul, .nav-link {
-        font-family: 'Inter', sans-serif;
-        }   
-        .accordion-button:not(.collapsed){
-            background: unset;
-        }
-    </style>
-    <body class=>
+    <body>
         {{ partial "header.html" . }}
         <main style="margin-top:50px">
         {{ block "main" . }}{{ end }}
