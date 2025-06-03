@@ -42,7 +42,7 @@ Using Apple Wallet makes travel easier by showing your boarding pass on the lock
 **Avianca** – Apple Wallet boarding passes offered after mobile check-in.
 **Ethiopian Airlines** – Limited Apple Wallet support depending on route and check-in method.
 
-## How to Add a Boarding Pass to Google Wallet**
+## How to Add a Boarding Pass to Google Wallet
 Google Wallet support is growing, but it’s still more limited compared to Apple Wallet. Some airlines let Android users add boarding passes to Google Wallet through their mobile apps, but support can vary by region and device.
 
 **Which Airlines Support Google Wallet:**
@@ -61,7 +61,7 @@ Google Wallet support is growing, but it’s still more limited compared to Appl
 **Qantas** – Limited Google Wallet pilot available through app.
 **LATAM** – Google Wallet integration in beta for some regional flights.
 
-## Why Google Wallet Doesn’t Support Apple Wallet Passes**
+## Why Google Wallet Doesn’t Support Apple Wallet Passes
 A common misconception is that Apple Wallet and Google Wallet use the same type of pass format. In fact, they don’t:
 
 Apple Wallet uses the **.pkpass** format (used widely in emails and iOS apps).
@@ -72,10 +72,10 @@ If you receive a boarding pass in .pkpass format, you can’t open it directly i
 **Google Wallet Limitations in Some Regions**
 Besides the format difference, Google Wallet isn’t available in all countries. If you’re in countries like Turkey, China, or parts of Africa, you may not even be able to download or use the Google Wallet.
 
-## Why .pkpass Files Don’t Work on Android by Default**
+## Why Apple Wallet Passes Don’t Work on Android by Default
 Even though many airlines send boarding passes in .pkpass format, this file type is made for iPhones. Android phones can’t open .pkpass files natively — unless a third-party app is installed. This often leads to confusion among Android users who receive these files but have no app to view them.
 
-## Best Apple Wallet Alternative for Boarding Passes on Android**
+## Best Apple Wallet Alternative for Boarding Passes on Android
 The best Pass Wallet solution for Android users is an app called **PassMate: Wallet for Passes**
 
 It is a free Android Wallet (no ads, no subscriptions) available on Google Play and Huawei AppGallery. It allows users to:
