@@ -64,9 +64,8 @@ Google Wallet support is growing, but it’s still more limited compared to Appl
 ## Why Google Wallet Doesn’t Support Apple Wallet Passes**
 A common misconception is that Apple Wallet and Google Wallet use the same type of pass format. In fact, they don’t:
 
-- Apple Wallet uses the **.pkpass** format (used widely in emails and iOS apps).
-
-- Google Wallet uses a **JSON-based format** that is not compatible with .pkpass files.
+Apple Wallet uses the **.pkpass** format (used widely in emails and iOS apps).
+Google Wallet uses a **JSON-based format** that is not compatible with .pkpass files.
 
 If you receive a boarding pass in .pkpass format, you can’t open it directly in Google Wallet unless the airline provides a separate pass version made for Android.
 
@@ -80,14 +79,13 @@ Even though many airlines send boarding passes in .pkpass format, this file type
 The best Pass Wallet solution for Android users is an app called **PassMate: Wallet for Passes**
 
 It is a free Android Wallet (no ads, no subscriptions) available on Google Play and Huawei AppGallery. It allows users to:
-
--   Open and use Apple Wallet Passes on Android
--   Display time- and location-based notifications (like Apple Wallet)
--   Receive gate updates or boarding changes in real time
--   Keep all boarding passes in one place — even without an internet connection
+Open and use Apple Wallet Passes on Android
+Display time- and location-based notifications (like Apple Wallet)
+Receive gate updates or boarding changes in real time
+Keep all boarding passes in one place — even without an internet connection
 
 **PassMate: Wallet for Passes** also provides a push notification service just like Apple Wallet.  
 Any pass provider (such as an airline or ticketing company) can register for a **free API token** and:
--   Send time/location-based alerts to users
--   Update boarding pass content (e.g., gate changes, flight delays)
--   Push updated passes to the user’s device automatically
+Send time/location-based alerts to users
+Update boarding pass content (e.g., gate changes, flight delays)
+Push updated passes to the user’s device automatically
