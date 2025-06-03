@@ -105,13 +105,13 @@ La solución ideal para usuarios de Android es **PassMate: Wallet for Passes**.
 
 Disponible gratis en **Google Play** y **Huawei AppGallery**, PassMate permite:
 
--   Abrir y visualizar archivos .pkpass en Android
+Abrir y visualizar archivos .pkpass en Android
     
--   Recibir alertas por hora o ubicación (como Apple Wallet)
+Recibir alertas por hora o ubicación (como Apple Wallet)
     
--   Obtener actualizaciones de puerta o embarque en tiempo real
+Obtener actualizaciones de puerta o embarque en tiempo real
     
--   Guardar todos los billetes en un solo lugar, incluso sin conexión
+Guardar todos los billetes en un solo lugar, incluso sin conexión
     
 
 ----------
@@ -122,11 +122,11 @@ Disponible gratis en **Google Play** y **Huawei AppGallery**, PassMate permite:
 
 Cualquier proveedor de pases (aerolínea, empresa de eventos o desarrollador) puede registrarse y obtener un **token API gratuito** para:
 
--   Enviar alertas automáticas según la ubicación o la hora
+Enviar alertas automáticas según la ubicación o la hora
     
--   Actualizar el contenido del pase (retrasos, cambios de puerta, etc.)
+Actualizar el contenido del pase (retrasos, cambios de puerta, etc.)
     
--   Sincronizar automáticamente el nuevo pase en el dispositivo del usuario
+Sincronizar automáticamente el nuevo pase en el dispositivo del usuario
     
 
 **PassMate es 100% gratuito y compatible con Android 7 o superior.**
