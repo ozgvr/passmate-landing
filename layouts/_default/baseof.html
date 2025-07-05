@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode }}">
-    {{ partial "head.html" . }}
+    <head>
+        {{ if eq .Section "blog" }}
+            {{ partial "head-blog.html" . }}
+        {{ else }}
+            {{ partial "head.html" . }}
+        {{ end }}
+        {{ partialCached "css.html" . }}
+    </head>
     <body>
         {{ partial "header.html" . }}
         <main style="margin-top:50px">
@@ -8,25 +15,6 @@
         </main>
         {{ partial "footer.html" . }}
         <!-- Meta Pixel Code -->
-        <script type="application/ld+json">
-            {
-              "@context": "https://schema.org/",
-              "@type": "MobileApplication",
-              "applicationCategory": "UtilityApplication",
-              "name": "PassMate",
-              "operatingSystem": "Android",
-              "description": "PassMate is an Android App that securely and conveniently organizes your transit passes, boarding passes, event tickets, ID cards, store cards, coupons and more — all in one place.",
-              "image": "https://getpassmate.com/images/banner.png",
-              "url": "https://getpassmate.com",
-              "author": {
-                "@type": "Organization",
-                "name": "PassMate"
-              },
-              "installUrl": "https://play.google.com/store/apps/details?id=com.getpassmate.wallet",
-              "downloadUrl": "https://play.google.com/store/apps/details?id=com.getpassmate.wallet",
-            }
-          
-        </script>
         <script>
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

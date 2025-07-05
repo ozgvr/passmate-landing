@@ -2,6 +2,19 @@
 title = "Cómo Añadir una Tarjeta de Embarque a Google Wallet"
 date = 2025-06-03T16:00:00+03:00
 description = "La mejor billetera Android para billetes de viaje y entradas digitales"
+keywords = [
+  "añadir tarjeta de embarque Google Wallet",
+  "pkpass Android",
+  "abrir tarjeta de embarque en Android",
+  "Google Wallet billetes de avión",
+  "PassMate app Android",
+  "alternativa a Apple Wallet en Android",
+  "billetes digitales Android",
+  "pase de abordar Google Wallet",
+  "archivos pkpass en Android",
+  "cómo usar .pkpass en Android",
+  "guardar billetes electrónicos en Android"
+]
 +++
 En la era digital de los viajes, las tarjetas de embarque ya no son hojas impresas, sino archivos digitales que puedes guardar directamente en tu teléfono. Ya uses un iPhone o un dispositivo Android, es posible que te preguntes: ¿qué aerolíneas permiten guardar la tarjeta de embarque en Apple Wallet o Google Wallet? ¿Y qué hacer si tu móvil no puede abrir correctamente estos archivos?
 
