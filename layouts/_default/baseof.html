@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode }}">
     <head>
-        {{ if eq .Section "blog" }}
+        {{ if eq .Section "posts" }}
             {{ partial "head-blog.html" . }}
         {{ else }}
             {{ partial "head.html" . }}
