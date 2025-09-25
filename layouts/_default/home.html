@@ -288,31 +288,47 @@
                     </div>
                     <!-- New Questions -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
-                                <h5>
-                                    Adding a Pass Automatically after Installing the PassMate (Install Referrer)
-                                </h5>
-                            </button>
-                        </h2>
-                        <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-6 lead">
-                                <p>
-                                    When serving a a Passbook (.pkpass) file to a client and if your client has not already installed PassMate, you can redirect the user to the Google Play Store page and specify a pass to be downloaded and installed automatically after installation by passing the referrer parameter in the following store urls:
-                                </p>
-                                <p>
-                                    <code>
-                                        market://details?id=com.getpassmate.wallet&referrer={encoded_pkpass_url}
-                                    </code>
-                                </p>
-                                <p>
-                                    <code>
-                                        https://play.google.com/store/apps/details?id=com.getpassmate.wallet&referrer={encoded_pkpass_url}
-                                    </code>
-                                </p>
-                                <div class="alert alert-dark" role="alert">To avoid breaking URL’s please encode the referrer URL using URL encoding.</div>
-                            </div>
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                          <h5>
+                            Linking Passes to the PassMate App
+                          </h5>
+                        </button>
+                      </h2>
+                      <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body fs-6 lead">
+                          <p>
+                            PassMate supports <code>intent://</code> links that let you open passes directly in the app if it’s installed. 
+                            If PassMate is not installed, the user is redirected to Google Play. 
+                            After installation, the pass is automatically added to PassMate.
+                          </p>
+                          <h6>Format</h6>
+                          <code>
+                            <pre class="mb-0">
+                    intent://add?url={encoded_pkpass_url}#Intent;
+                    scheme=passmate;
+                    package=com.getpassmate.wallet;
+                    S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.getpassmate.wallet%26referrer%3D{encoded_pkpass_url};
+                    end
+                            </pre>
+                          </code>
+                          <h6>Example</h6>
+                          <p>Replace PASS_URL with your pkpass download link</p>
+                          <code>
+                            <pre class="mb-0">
+                    intent://add?url=PASS_URL#Intent;
+                    scheme=passmate;
+                    package=com.getpassmate.wallet;
+                    S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.getpassmate.wallet%26referrer%PASS_URL;
+                    end
+                            </pre>
+                          </code>
+                          <div class="alert alert-dark" role="alert">
+                            Always URL-encode your pass URL to avoid breaking links. 
+                            The <code>referrer</code> parameter ensures the pass is downloaded automatically after installation.
+                          </div>
                         </div>
+                      </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
