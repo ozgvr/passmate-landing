@@ -306,16 +306,11 @@
                           <p>Replace PASS_URL with your pkpass download link</p>
                           <code>
                             <pre class="mb-0">
-                    intent://add?url=PASS_URL#Intent;
-                    scheme=passmate;
-                    package=com.getpassmate.wallet;
-                    S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.getpassmate.wallet%26referrer%PASS_URL;
-                    end
+intent://add?url=PASS_URL#Intent;scheme=passmate;package=com.getpassmate.wallet;S.browser_fallback_url=market%3A%2F%2Fdetails%3Fid%3Dcom.getpassmate.wallet%26referrer%3DPASS_URL;end
                             </pre>
                           </code>
                           <div class="alert alert-dark" role="alert">
                             Always URL-encode your pass URL to avoid breaking links. 
-                            The <code>referrer</code> parameter ensures the pass is downloaded automatically after installation.
                           </div>
                         </div>
                       </div>
