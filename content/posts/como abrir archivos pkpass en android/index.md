@@ -2,6 +2,19 @@
 title = "Cómo abrir pases de Apple Wallet en Android"
 date = 2025-05-24T11:00:00+03:00
 description = "Cómo abrir archivos .pkpass en teléfonos Android y Huawei"
+keywords = [
+  "pkpass Android",
+  "abrir pkpass en Android",
+  "Apple Wallet Android",
+  "visualizar pases pkpass",
+  "archivo pkpass Huawei",
+  "PassMate app",
+  "billetera digital Android",
+  "alternativa a Apple Wallet en Android",
+  "lector pkpass Android",
+  "wallet pkpass Android",
+  "cómo usar archivos pkpass"
+]
 +++
 Un archivo `.pkpass` es un **formato universal de pase digital desarrollado por Apple Inc.**, diseñado para usarse con la aplicación nativa **Apple Wallet** (anteriormente Passbook) en dispositivos iPhone (iOS).
 

@@ -1,0 +1,77 @@
+<title>{{ .Title }}</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="apple-touch-icon" sizes="57x57" href="/icons/favicon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180x180.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/favicon-192x192.png">
+<link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+
+<meta name="description" content="{{ .Params.description | default .Summary }}" />
+{{ with .Params.keywords }}
+  <meta name="keywords" content="{{ delimit . ", " }}" />
+{{ end }}
+<meta name="author" content="{{ .Params.author | default "Passmate" }}" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta property="og:description" content="{{ .Params.description | default .Summary }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="Passmate" />
+{{ with .Resources.GetMatch "cover*" }}
+  <meta property="og:image" content="{{ .Permalink }}" />
+  <meta property="og:image:secure_url" content="{{ .Permalink }}" />
+{{ else }}
+  <meta property="og:image" content="https://getpassmate.com/share.png" />
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />
+<meta name="twitter:description" content="{{ .Params.description | default .Summary }}" />
+{{ with .Resources.GetMatch "cover*" }}
+  <meta name="twitter:image" content="{{ .Permalink }}" />
+{{ else }}
+  <meta name="twitter:image" content="https://getpassmate.com/share.png" />
+{{ end }}
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.description | default .Summary }}",
+  "image": "{{ with .Resources.GetMatch "cover*" }}{{ .Permalink }}{{ else }}https://getpassmate.com/share.png{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author | default "Passmate" }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Passmate",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://getpassmate.com/icons/favicon-192x192.png"
+    }
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>

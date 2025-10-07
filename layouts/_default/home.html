@@ -226,7 +226,7 @@
                                     The Authorization header of PassMate is as below:
                                 </p>
                                 <p>
-                                    <code>[Authorization] => PassMate authToken</code>
+                                    <code>[Authorization] => AndroidPass authToken</code>
                                 </p>
                                 <p>
                                     If you already implemented Apple Wallet Web Service API, you only need to take into account the specified Authorization header to flag the device is an Android Device and the application is PassMate.
@@ -288,31 +288,32 @@
                     </div>
                     <!-- New Questions -->
                     <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
-                                <h5>
-                                    Adding a Pass Automatically after Installing the PassMate (Install Referrer)
-                                </h5>
-                            </button>
-                        </h2>
-                        <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body fs-6 lead">
-                                <p>
-                                    When serving a a Passbook (.pkpass) file to a client and if your client has not already installed PassMate, you can redirect the user to the Google Play Store page and specify a pass to be downloaded and installed automatically after installation by passing the referrer parameter in the following store urls:
-                                </p>
-                                <p>
-                                    <code>
-                                        market://details?id=com.getpassmate.wallet&referrer={encoded_pkpass_url}
-                                    </code>
-                                </p>
-                                <p>
-                                    <code>
-                                        https://play.google.com/store/apps/details?id=com.getpassmate.wallet&referrer={encoded_pkpass_url}
-                                    </code>
-                                </p>
-                                <div class="alert alert-dark" role="alert">To avoid breaking URL’s please encode the referrer URL using URL encoding.</div>
-                            </div>
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10">
+                          <h5>
+                            Linking Passes to the PassMate App
+                          </h5>
+                        </button>
+                      </h2>
+                      <div id="faq10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body fs-6 lead">
+                          <p>
+                            PassMate supports <code>intent://</code> links that let you open passes directly in the app if it’s installed. 
+                            If PassMate is not installed, the user is redirected to Google Play. 
+                            After installation, the pass is automatically added to PassMate.
+                          </p>
+                          <h6>Format</h6>
+                          <p>Replace PASS_URL with your pkpass download link</p>
+                          <code>
+                            <pre class="mb-0">
+intent://add?url=PASS_URL#Intent;scheme=passmate;package=com.getpassmate.wallet;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.getpassmate.wallet%26referrer%3DPASS_URL;end
+                            </pre>
+                          </code>
+                          <div class="alert alert-dark" role="alert">
+                            Always URL-encode your pass URL to avoid breaking links. 
+                          </div>
                         </div>
+                      </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -329,11 +330,8 @@
                                 </p>
                                 <p>
                                     <a>
-                                        <img height="50" src="/images/PassMate_Badge_Dark-1.png">
+                                        <img height="50" src="/images/passmate_en.png">
                                     </a>
-                                    <a>
-                                        <img height="50" src="/images/PassMate_Badge_Light-1.png">
-                                    </a>     
                                 </p>
                                 <p>
                                     Click the link below to download full pack of PassMate Badges with various sizes and formats.
@@ -344,6 +342,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="text-center mt-4">
+                    <p class="lead text-body-secondary">For more information, please click and download our Integration Guide
+                    </p>
+                    <p>
+                        <a href="/downloads/PassMate_Integration_Guide.pdf" class="text-decoration-none text-body-emphasis">Download Guide</a>
+                    </p>
                 </div>
             </div>
         </div>

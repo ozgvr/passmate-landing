@@ -2,6 +2,19 @@
 title = "Apple Wallet .pkpass Dosyaları Android Telefonda Nasıl Açılır"
 date = 2025-05-24T11:01:00+03:00
 description = "Apple Wallet Pass nedir, Android'de hangi uygulamalar destekler"
+keywords = [
+  "pkpass Android",
+  "Android Apple Wallet alternatifi",
+  "pkpass dosyası açma",
+  "pkpass görüntüleyici Android",
+  "Apple Wallet Android uyumlu",
+  "PassMate uygulaması",
+  "pkpass dosyası Huawei",
+  "dijital bilet Android",
+  "etkinlik bileti Android",
+  "QR kodlu bilet açma",
+  "uçuş kartı pkpass Android"
+]
 +++
 `.pkpass`, **Apple Inc. tarafından geliştirilen evrensel bir dijital bilet dosya formatıdır**. iPhone (iOS) cihazlarda yer alan **Apple Wallet** (eski adıyla Passbook) uygulamasıyla kullanılmak üzere tasarlanmıştır.
 

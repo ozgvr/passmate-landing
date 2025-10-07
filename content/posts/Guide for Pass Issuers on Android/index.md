@@ -2,6 +2,18 @@
 title = "Guide for Pass Issuers on Android"
 date = 2025-06-13T18:30:00+03:00
 description = "A Practical Guide for Pass Issuers to Support Apple Passes on Android."
+keywords = [
+  "pkpass Android support",
+  "send push notifications to Android passes",
+  "Apple Wallet pass on Android",
+  "PassMate for pass issuers",
+  "real-time pass updates Android",
+  "how to support pkpass on Android",
+  "Android wallet for pkpass files",
+  "push service for boarding passes Android",
+  "passbook alternative for Android",
+  "API for digital passes Android"
+]
 +++
 If your business issues digital passes—such as boarding passes, event tickets, coupons, or loyalty cards—in Apple .pkpass file format, you're likely overlooking a major issue: Android users can’t open or receive updates for Apple passes natively.
 
